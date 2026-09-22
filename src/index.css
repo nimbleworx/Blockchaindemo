@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+body {
+  font-family:
+    ui-sans-serif,
+    system-ui,
+    -apple-system,
+    'Segoe UI',
+    Roboto,
+    Helvetica,
+    Arial,
+    sans-serif;
+}
+
+/*
+ * v2 note: for persistence across sessions, entries could be written to
+ * localStorage (or IndexedDB) on every change and rehydrated on load.
+ * Not implemented for this v1 demo — state resets on refresh by design.
+ */
